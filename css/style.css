@@ -1,0 +1,47 @@
+.mdl-grid.center-items {
+    justify-content: center;
+  }
+
+.mdl-cell.background{
+background-image: url('../images/content-clean.jpg');
+height: 651px;
+background-repeat: no-repeat;
+}
+
+.header{
+    background-image: url('../images/header.png');
+}
+.middle-content{
+    display: inline-block;
+}
+
+
+.middle-content-image{
+position: absolute;
+z-index: 100;
+}
+.middle-content-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 110;
+    transform: translate(-50%, -50%);
+    
+}
+
+.pheader {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+}
+
+.pheader-bold {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    font-weight: 700;
+}
