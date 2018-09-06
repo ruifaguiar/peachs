@@ -36,13 +36,7 @@ body {
     color: black;
     font-family: 'Roboto','sans-serif'
 }
-@media screen and (max-width:480px){
-    .pheader{
-        color:white;
-        top:50%;
-        font-size: 2rem;
-    }
-}
+
 .container{
     display: inline-block;
     position: relative;
@@ -63,5 +57,32 @@ body {
     padding: 0px;
 }
 
-
+@media screen and (max-width:480px){
+    .pheader{
+        color:white;
+        top:50%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .pbooknow{
+        font-size: 1rem;
+    }
+    .pfooter-content{
+        font-size: 0.75rem;
+    }
+    .pfooter{
+        font-size: 0.85rem;
+    }
+}
+@media screen and (max-width:768px) and (min-width:481px){
+    .pheader{
+        color:white;
+        top:50%;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .pbooknow{
+        font-size: 2rem;
+    }
+}
 
