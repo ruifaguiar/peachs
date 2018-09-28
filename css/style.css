@@ -55,6 +55,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+.footer_images{
+    text-align: right;
+}
 
 @media screen and (max-width:480px){
     .pheader{
@@ -72,6 +75,9 @@ body {
     .pfooter{
         font-size: 0.85rem;
     }
+    .footer_images{
+        text-align: center;
+    }
 }
 @media screen and (max-width:768px) and (min-width:481px){
     .pheader{
@@ -82,6 +88,9 @@ body {
     }
     .pbooknow{
         font-size: 2rem;
+    }
+    .footer_images{
+        text-align: center;
     }
 }
 
