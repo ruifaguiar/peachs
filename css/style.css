@@ -5,6 +5,11 @@ body {
       color:#424242;
       border:0;
   }
+  a{
+    color:#424242;
+    border:0;
+}
+
 .pheader {
     font-family: 'Roboto', sans-serif;
     font-size: 6rem;
